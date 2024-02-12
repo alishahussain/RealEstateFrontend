@@ -101,7 +101,7 @@ title: House Details
                     }
                 });
                 if (response.ok) {
-                    window.location.href = "/favorites";
+                    window.location.href = '{{site.baseurl}}/favorites';
                 } else {
                     alert('Failed to add house to favorites. Please try again later.');
                 }
